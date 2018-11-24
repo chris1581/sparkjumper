@@ -1,0 +1,223 @@
+body {
+	background-color: #000000;
+}
+
+img {
+	max-width: 100%;
+}
+
+/* Styles for mobile layout */
+
+#container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header {
+	text-align: center;
+	color: #E0E0E0;
+	font-size: 1.1em;
+}
+
+nav {
+	font-family: "New Times Roman", serif;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+nav ul {
+	padding: 0;
+	margin-top: 0.5em;
+	Margin-bottom: 0.5em;
+}
+
+nav li {
+	background-color: #E0E0E0;
+	border-radius: 1em;
+	margin: 0.3em;
+	padding: 0.2em;
+	margin-left: 16%;
+	margin-right: 16%;
+}
+
+nav li a {
+	color: #000000;
+	text-decoration: none;
+}
+
+nav li a:link {
+	color: #000000;
+}
+
+nav li a:visited {
+	color: #656565;
+}
+
+nav li a:hover {
+	color: #FFFFFF;
+}
+
+input, select, textarea {
+	display: block;
+	margin-bottom: 1em;
+}
+
+label { 
+	float: left;
+	width: 8em;
+	padding-right: 0.5em;
+	text-align: right;
+}
+
+.mobile {
+	display: inline;
+}
+
+.desktop {
+	display: none;
+}
+
+.tablet { 
+	display: none;
+}
+
+main {
+	display: block;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 1em;
+	margin-top: 0.5em;
+	padding: 1em;
+	background-color: #E0E0E0;
+}
+
+footer {
+	font-size: .70em;
+	text-align: center;
+	margin-top: 2em;
+	color: #FFFFFF;
+}
+
+/* Media query for tablet viewport targets screen size with a minimum of 650px. */
+
+@media only screen and (min-width: 650px) {
+	
+nav li {
+	display: inline;
+	float: left;
+	margin-left: 0%;
+	margin-right: 0%;
+	padding-left: 0;
+	padding-right: 0;
+	width: 20%;
+	border-radius: 0;
+	background-color: #E0E0E0;
+}
+
+main {
+	clear: left;
+	margin-top: -0.3em;
+}
+
+.mobile {
+	display: none;
+}
+
+.desktop {
+	display: inline;
+}
+
+.tablet {
+	display: block;
+	margin-top: -3em;
+	margin-bottom: -1em;
+}
+
+header h1 {
+	text-align: center;
+	font-size: 3em;
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+}
+
+}
+
+/* Media query for desktop viewport targets screens with a minimum width of 1270px. */
+
+@media only screen and (min-width: 1270px) {
+
+/* Style specifies a width for container */
+#container {
+	background-color: #000000;
+}
+
+header h1 {
+	margin-top: -2.5em;
+	text-align: center;
+	width: 75%;
+	float: right;
+	font-size: 4em;
+}
+
+img {
+	width: 26%;
+}
+
+/* Alignment for logo */
+header {
+	text-align: left;
+}
+
+nav {
+	float: right;
+	margin-top: -3em;
+	margin-bottom: 0;
+	width: 74%;
+}
+
+nav ul {
+	margin: 0;
+	padding-left: 0.50%;
+	padding-right: 0.50%;
+}
+
+nav li {
+	margin-left: 0;
+	margin-right: 0;
+	padding: 0;
+	width: 20%;
+}
+
+nav li a {
+	display: inline-block;
+	color: #E0E0E0;
+	padding: 0.7em;
+}
+
+main {
+	background-color: #E0E0E0;
+	width: 97%;
+	margin-left: auto;
+	Margin-right: auto;
+	margin-top: 0.1em;
+}
+
+main img {
+	width: 33%;
+}
+
+.mountain {
+	width: 100%;
+}
+
+body {
+	background-color: #FFFFFF;
+}
+
+footer {
+	background-color: #101010;
+	margin-top: -0.2em;
+	padding: 2em;
+}
+
+}
